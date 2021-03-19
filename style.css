@@ -1,7 +1,7 @@
 body{
 	 background-image: linear-gradient(lightblue, lightgrey);
 }
-.drop-dugme {
+.drop-button {
   border: none;
   cursor: pointer;
   height:80px;
@@ -13,7 +13,7 @@ body{
   display: inline-block;
 }
 
-.dropdown-sadrzaj {
+.dropdown-content {
   display: none;
   position: absolute;
   background-image:linear-gradient(lightgrey,#C7BFE6);
@@ -25,7 +25,7 @@ body{
   z-index: 1;
 }
 
-.link-meni-tekst{
+.link-menu-text{
   padding:10px;
   height:50px;
   color: white;
@@ -51,19 +51,19 @@ body{
 
 .show {display: block;}
 
-.naslov h1{
+.title h1{
   font-size: 45px;
   text-align: center;
   margin-top: 0;
   padding-top: 0;
 }
-.naslov img
+.title img
 {
   right:0;
   top:0;
   position: absolute;
-  height:200px;
-  width: 200px;
+  height:100px;
+  width: 100px;
   display:inline;
 }
 footer
@@ -74,14 +74,14 @@ footer
   bottom: 0;
 }
 
-.stranice{
+.websites{
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 80px;
   text-align: center;
 }
 
-.stranice div
+.websites div
 {
   display: inline-block;
   min-width: 400px;
@@ -89,12 +89,10 @@ footer
   margin:40px;
   padding:5px;
 }
-.stranice img{
+.websites img{
   height:400px;
   width:400px;}
 
-.stranice div:hover{
+.websites div:hover{
   background-color: white;
 }
-
-

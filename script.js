@@ -1,11 +1,11 @@
 function dropdownFunk() {
-  document.getElementById("mojDropdown").classList.toggle("show");
+  document.getElementById("myDropdown").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.drop-dugme')) {
-    var dropdowns = document.getElementsByClassName("dropdown-sadrzaj");
+  if (!event.target.matches('.drop-button')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
