@@ -1,0 +1,100 @@
+body{
+	 background-image: linear-gradient(lightblue, lightgrey);
+}
+.drop-dugme {
+  border: none;
+  cursor: pointer;
+  height:80px;
+  width:80px;
+}
+
+.dropdown {
+  position: sticky;
+  display: inline-block;
+}
+
+.dropdown-sadrzaj {
+  display: none;
+  position: absolute;
+  background-image:linear-gradient(lightgrey,#C7BFE6);
+  color:white;
+  min-width: 400px;
+  min-height: 400px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.link-meni-tekst{
+  padding:10px;
+  height:50px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  width:60%;
+  min-height: 50px;
+  padding: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-item img
+{
+  width:40px;
+  height:40px;
+  display:inline-block;
+  float:right;
+  padding: 20px;
+}
+
+.dropdown img:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.naslov h1{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+.naslov img
+{
+  right:0;
+  top:0;
+  position: absolute;
+  height:200px;
+  width: 200px;
+  display:inline;
+}
+footer
+{
+  float:right;
+  position: fixed;
+  right: :0;
+  bottom: 0;
+}
+
+.stranice{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.stranice div
+{
+  display: inline-block;
+  min-width: 400px;
+  min-height: 400px;
+  margin:40px;
+  padding:5px;
+}
+.stranice img{
+  height:400px;
+  width:400px;}
+
+.stranice div:hover{
+  background-color: white;
+}
+
+
